@@ -142,8 +142,6 @@ python-dateutil==2.8.2
 python-louvain==0.16
 pytz==2021.3
 pyviz-comms==2.1.0
-pywin32-ctypes==0.2.0
-pywinpty==2.0.5
 PyYAML==6.0
 pyzmq==22.3.0
 qasync==0.23.0
