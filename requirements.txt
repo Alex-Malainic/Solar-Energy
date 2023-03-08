@@ -202,4 +202,4 @@ xgboost==1.6.0
 xlrd==2.0.1
 XlsxWriter==3.0.3
 zipp==3.7.0
-sodapy==2.2.0
+sodapy==2.1.0
