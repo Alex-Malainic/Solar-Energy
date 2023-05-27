@@ -19,7 +19,7 @@ from sodapy import Socrata
 
 from tensorflow import keras
 from sklearn.model_selection import GridSearchCV
-from scikeras.wrappers import KerasRegressor
+#from scikeras.wrappers import KerasRegressor
 
 
 @st.cache_data  # 👈 Add the caching decorator
