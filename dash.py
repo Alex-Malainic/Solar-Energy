@@ -34,7 +34,7 @@ def load_data(url, sep):
 #     return response.json()
 
 
-df = load_data("C:\\Users\\alexm\\OneDrive\\Projects\\PV Energy\\Calgary_Dataset.csv", sep = '\t')
+df = load_data("https://github.com/Alex-Malainic/Solar-Energy/blob/main/Calgary_Dataset_small.csv?raw=True", sep = '\t')
 
 
 panels = set(np.array(df['name']))
