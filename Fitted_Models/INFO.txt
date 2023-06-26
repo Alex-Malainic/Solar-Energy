@@ -1,0 +1,3 @@
+This folder contains the fitted models by interval and weather type.
+The models are MLP Regressor, XGB and Random Forest.
+To train the models again on the dataset, delete the files in this folder and run the main code.
