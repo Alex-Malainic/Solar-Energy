@@ -1,0 +1,3 @@
+This folder contains the classified weather types for the test dataset, using the Random Forest algorithm. 
+The files are uploaded in order to speed up the app deployment.
+In order to classify new weather types based on another dataset, these files should be deleted and the main code ran again.
