@@ -325,11 +325,7 @@ def evaluate_model(forecast_test, test,new_test):
     rmse = np.sqrt(mse) 
     r2 = metrics.r2_score(forecast_test['TotalPower'],forecast_test['PredictedTotalPower'])
     smape_ = smape(forecast_test['TotalPower'], forecast_test['PredictedTotalPower'])  
-    print("Results of sklearn.metrics:")
-    print("MAE:",round(mae,3))
-    print("RMSE:", round(rmse,3))
-    print(f"R-Squared: {round(r2,3) * 100} %")
-    print(f"Scaled mean absolute percentage error: {round(smape_,3)} %")
+    return mae,rmse,r2,smape_
     
 
 
