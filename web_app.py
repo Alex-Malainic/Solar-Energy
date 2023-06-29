@@ -410,8 +410,8 @@ elif selected_subpage == 'ML Model Estimation':
                         description="",
                         color_name="violet-80"
                         )
-
-        forecasted_data_MLP = module.train_predict_MLP_model(new_stand_train, new_stand_test)
+        with st.spinner("Running MLP model..."):
+                forecasted_data_MLP = module.train_predict_MLP_model(new_stand_train, new_stand_test)
         mae,rmse,r2,smape_ = module.evaluate_model(forecasted_data_MLP, test, new_test_data)
         
         col1, col2, col3, col4 = st.columns(4)
@@ -473,8 +473,8 @@ elif selected_subpage == 'ML Model Estimation':
                         description="",
                         color_name="violet-80"
                         )
-
-        forecasted_data_XGB = module.train_predict_XGB_model(new_stand_train, new_stand_test)
+        with st.spinner("Running XGB model..."):
+                forecasted_data_XGB = module.train_predict_XGB_model(new_stand_train, new_stand_test)
         mae,rmse,r2,smape_ = module.evaluate_model(forecasted_data_XGB, test, new_test_data)
 
         col1, col2, col3, col4 = st.columns(4)
@@ -533,8 +533,8 @@ elif selected_subpage == 'ML Model Estimation':
                         description="",
                         color_name="violet-80"
                         )
-
-        forecasted_data_RF = module.train_predict_RF_model(new_stand_train, new_stand_test)
+        with st.spinner("Running RF model..."):
+                forecasted_data_RF = module.train_predict_RF_model(new_stand_train, new_stand_test)
         mae,rmse,r2,smape_ = module.evaluate_model(forecasted_data_RF, test, new_test_data)
 
         col1, col2, col3, col4 = st.columns(4)
