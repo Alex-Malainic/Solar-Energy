@@ -5,7 +5,6 @@ import numpy as np
 from sklearn.preprocessing import OrdinalEncoder, StandardScaler
 from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
-from scikeras.wrappers import KerasRegressor
 import matplotlib.pyplot as plt
 import seaborn as sns
 from itertools import product
