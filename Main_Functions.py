@@ -22,16 +22,6 @@ from urllib.request import urlopen
 warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.filterwarnings('ignore', category=DeprecationWarning)
 
-#disable pointless tensorflow warnings
-import tensorflow as tf
-tf.get_logger().setLevel('INFO')
-tf.autograph.set_verbosity(0)
-import logging
-tf.get_logger().setLevel(logging.ERROR)
-import absl.logging
-absl.logging.set_verbosity(absl.logging.ERROR)
-
-
 def load_data(url, sep):
     df = pd.read_csv(url, sep, parse_dates=['timestamp'], index_col='timestamp')
     return df
