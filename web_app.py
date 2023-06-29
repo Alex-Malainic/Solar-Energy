@@ -302,8 +302,8 @@ elif selected_subpage == 'EDA':
         @st.cache_data
         def kde_plot(df, granularity, var):
                 fig, ax = plt.subplots()
-                sns.set(style='whitegrid',palette="deep", font_scale=1.1, rc={"figure.figsize": [22, 8]})
                 if granularity == 'season':
+                        sns.set(style='whitegrid',palette="deep", font_scale=1.1, rc={"figure.figsize": [22, 10]})
                         colors = {"Winter": "darkblue", "Spring": "green", "Summer": "orange", "Fall": "brown"}
                         for season, color in colors.items():
                                 sns.kdeplot(df[df["season"]==season][var], 
@@ -323,7 +323,7 @@ elif selected_subpage == 'EDA':
                                 "April": "green", "May": "lime", "June": "gold",
                                 "July": "orange", "August": "red", "September": "purple",
                                 "October": "pink", "November": "skyblue", "December": "navy"}
-
+                        sns.set(style='whitegrid',palette="deep", font_scale=1.1, rc={"figure.figsize": [22, 10]})
                         for month, color in colors.items():
                                 sns.kdeplot(df[df["month"]==month][var], 
                                                 fill=True, 
