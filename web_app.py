@@ -33,6 +33,7 @@ import joblib
 import warnings
 from urllib.request import urlopen
 import importlib.util
+from streamlit_extras.metric_cards import style_metric_cards
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.filterwarnings('ignore', category=DeprecationWarning)
@@ -419,7 +420,7 @@ elif selected_subpage == 'ML Model Estimation':
         col2.metric(":green[**RMSE**]", round(rmse,3))
         col3.metric(":green[**R_Squared**]", str(round(r2,3) * 100) + '%')
         col4.metric(":green[**Scaled mean absolute percentage error**]", str(round(smape_,3)) + '%')
-
+        style_metric_cards(background_color="#002b36")
         min_date = new_test_data.index.min()
         max_date = new_test_data.index.max()
         st.write("### Select a date range for Deviations plot")
