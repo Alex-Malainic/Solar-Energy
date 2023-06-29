@@ -40,7 +40,7 @@ warnings.filterwarnings('ignore', category=DeprecationWarning)
 st.title('Forecasting Energy Generation Output of Solar Panels Using Meteorological Data :sun_small_cloud:')
 
 #import main functions from github    
-@st.cache_resource
+#@st.cache_resource
 def import_functions():
         url = "https://raw.githubusercontent.com/Alex-Malainic/Solar-Energy/main/Main_Functions.py"
 
