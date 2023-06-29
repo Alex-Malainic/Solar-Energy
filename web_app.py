@@ -303,6 +303,7 @@ elif selected_subpage == 'EDA':
         @st.cache_data
         def kde_plot(df, granularity, var):
                 fig, ax = plt.subplots()
+                sns.set(style='whitegrid',palette="deep", font_scale=1.1, rc={"figure.figsize": [22, 10]})
                 if granularity == 'season':
                         sns.set(style='whitegrid',palette="deep", font_scale=1.1, rc={"figure.figsize": [22, 10]})
                         colors = {"Winter": "darkblue", "Spring": "green", "Summer": "orange", "Fall": "brown"}
