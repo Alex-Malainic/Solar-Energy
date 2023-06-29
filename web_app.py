@@ -37,11 +37,6 @@ import importlib.util
 warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.filterwarnings('ignore', category=DeprecationWarning)
 
-#disable pointless tensorflow warnings
-tf.get_logger().setLevel('INFO')
-tf.autograph.set_verbosity(0)
-import logging
-tf.get_logger().setLevel(logging.ERROR)
 import absl.logging
 absl.logging.set_verbosity(absl.logging.ERROR)
 
