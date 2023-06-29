@@ -37,10 +37,6 @@ import importlib.util
 warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.filterwarnings('ignore', category=DeprecationWarning)
 
-import absl.logging
-absl.logging.set_verbosity(absl.logging.ERROR)
-
-
 st.title('Forecasting Energy Generation Output of Solar Panels Using Meteorological Data :sun_small_cloud:')
 
 #import main functions from github    
