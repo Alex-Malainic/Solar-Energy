@@ -176,7 +176,7 @@ preshed==3.0.8
 prometheus-client==0.16.0
 prompt-toolkit==3.0.38
 prophet==1.1.4
-protobuf==3.20.0
+protobuf==3.19.5
 psutil==5.9.4
 pure-eval==0.2.2
 pyarrow==11.0.0
