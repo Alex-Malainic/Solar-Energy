@@ -1,3 +1,3 @@
-# Solar-Energy
+# Solar Energy Forecast
 
-## Try streamlit
+## This repo contains the source code for the following interactive web application: https://pv-energy-forecast.streamlit.app/
