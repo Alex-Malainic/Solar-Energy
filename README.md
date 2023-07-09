@@ -28,4 +28,4 @@ The web app can be accessed at the following link: https://pv-energy-forecast.st
 
 ## Usage
 
-The Home page 
+The **Home** page features a PV location explorer and an interactive dataset explorer.
