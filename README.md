@@ -10,6 +10,7 @@
 - [Features](#features)
 - [Acess](#access)
 - [Usage](#usage)
+- [Credits](#credits)
 
 ## Introduction
 
@@ -28,4 +29,13 @@ The web app can be accessed at the following link: https://pv-energy-forecast.st
 
 ## Usage
 
-The **Home** page features a PV location explorer and an interactive dataset explorer.
+**Home** - this page features a PV panel location explorer and an interactive dataset explorer.
+**EDA** - Exploratory Data Analysis with an interactive way to choose the data granularity and daytime (07:00 AM - 18:00 PM) or full time dataset.
+**ML Model Estimation** - this page features metrics for the three ML models (MLP, XGBoost and Random Forest), deviation plots and feature value importance using SHAP VALUES
+**Forecast** - in this page the MLP model forecast can be viewed for the next 3 days; the forecast is retrieved from the weather API.
+
+## Credits
+
+Credits to https://dkasolarcentre.com.au/ for providing the PV dataset.
+
+
