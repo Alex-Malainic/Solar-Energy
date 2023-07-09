@@ -1,7 +1,5 @@
 # Solar Energy Forecast
 
-# PV Energy Forecast Web Application
-
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 > A web application for PV energy forecast using meteorological data.
