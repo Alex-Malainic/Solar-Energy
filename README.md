@@ -13,9 +13,8 @@
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
+- [Acess](#access)
 - [Usage](#usage)
-- [License](#license)
 
 ## Introduction
 
@@ -25,12 +24,13 @@ This web application provides a PV (Photovoltaic) energy forecast based on meteo
 
 - Accurate PV energy forecast based on meteorological data
 - User-friendly interface with intuitive controls
-- Customizable parameters for precise predictions
+- Customizable parameters for EDA
 - Historical data analysis for performance evaluation
 
-## Installation
+## Access
 
-1. Clone the repository:
+The web app can be accessed at the following link: https://pv-energy-forecast.streamlit.app/
 
-   ```shell
-   git clone https://github.com/your-username/your-repository.git
+## Usage
+
+The Home page 
