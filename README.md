@@ -37,6 +37,6 @@ The web app can be accessed at the following link: https://pv-energy-forecast.st
 
 ## Credits
 
-Credits to https://dkasolarcentre.com.au/ for providing the PV dataset.
+Credits to https://dkasolarcentre.com.au/ for providing the PV energy historical dataset.
 
 
